@@ -1,6 +1,6 @@
 [![](https://img.shields.io/discord/828676951023550495?color=5865F2&logo=discord&logoColor=white)](https://lunish.nl/support)
-![](https://ghcr-badge.egpl.dev/luna-devv/transgirl/latest_tag)
-![](https://ghcr-badge.egpl.dev/luna-devv/transgirl/size)
+![](https://ghcr-badge.egpl.dev/shi-gg/transgirl/latest_tag)
+![](https://ghcr-badge.egpl.dev/shi-gg/transgirl/size)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I3I6AFVAP)
 
@@ -17,7 +17,7 @@ To deploy this project, create the following `docker-compose.yml`:
 ```yml
 services:
   app:
-    image: ghcr.io/luna-devv/transgirl:latest
+    image: ghcr.io/shi-gg/transgirl:latest
     container_name: transgirl
     ports:
       - "8080:8080"
